@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="/static/stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='stylesheet.css') }}">
     <script src="https://kit.fontawesome.com/88bbac2ebc.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Signika">
     </head>
     <body>
         <nav> 
             <ul> 
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">About Me</a></li>
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="{{ url_for('about') }}">About Me</a></li>
                 <li><a href=https://drive.google.com/file/d/1UpP_G05hoGnXcyMf7Y-tip20iA_zSQxb/view?usp=drive_link>Resume</a></li>
             </ul>  
         </nav>
