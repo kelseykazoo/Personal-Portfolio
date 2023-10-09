@@ -211,3 +211,12 @@ nav .alt ul li a {
   text-align:center;
   font-size:43px;
 }
+
+.footer-icons {
+    text-align: center;
+}
+
+.footer-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
