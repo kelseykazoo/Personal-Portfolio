@@ -212,11 +212,13 @@ nav .alt ul li a {
   font-size:43px;
 }
 
-.footer-icons {
-    text-align: center;
+.footer {
+    position: relative;
 }
 
-.footer-icons a {
-    margin: 0 10px;
-    display: inline-block;
+.footer-icons {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
