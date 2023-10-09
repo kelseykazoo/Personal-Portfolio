@@ -212,19 +212,15 @@ nav .alt ul li a {
   font-size:43px;
 }
 
-.footer {
-    text-align: center;
-    position: relative;
-    height: 50px; /* Adjust the height as needed */
+#footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
 }
 
-.footer-icons {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-.footer-icons a {
-    margin: 0 10px;
+* html #footer {
+   position:absolute;
+   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
 }
