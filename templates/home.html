@@ -1,70 +1,139 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="/static/stylesheet.css">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This page displays what our code would look like after CSS Variables are used and a Dark Mode toggle is created."
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./images/favicon/site.webmanifest" />
     <script src="https://kit.fontawesome.com/88bbac2ebc.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Signika">
-    </head>
-    <body>
-        <nav> 
-            <ul> 
-                <li><a href="/">Home</a></li>
-                <li><a href=https://drive.google.com/file/d/1lFnDWbNBjfLs6UXUFpW0nqwpNGeue3Hi/view?usp=drive_link>Resume</a></li>
-            </ul>  
-        </nav>
-          <h1>Kelsey Hill</h1>
-          <h2><i class="fa-solid fa-location-dot"></i> Corpus Christi, Texas</h2>
-        <a href="https://www.linkedin.com/in/kelseykazoo777/" class="fa fa-linkedin"></a>
-        <a href="https://github.com/kelseykazoo" class="fa fa-github"></a>
-          <h3>Hello! <i class="fa-regular fa-face-laugh"></i></h3>
-          <p>
-            <ul>
-                <div class="bio">
-                <li>I am a current <s>drug dealer</s> certified pharmacy technician  <i class="fa-solid fa-prescription"></i></li>
-                <li>A student enrolled at Purdue Global University  <i class="fa-solid fa-graduation-cap"></i> pursuing a bachelor's degree in Information Technology focused in Software Development</li>
-                <li>An aspiring software engineer <i class="fa-solid fa-terminal"></i></li>
-            </ul>
-        </div>
-        <h3>My interests</h3>
-            <div class="arrow">
-           <p><i class="arrow fa-solid fa-chevron-down fa-xl"></i></p>
-            </div>
-        <p>
-            <div class="column-4 project-1">
-                <h2 class="project-text">GAMING<p><i class="fa-solid fa-gamepad fa-2xl"></i></p></h2>
-            </div>
-            
-            <div class="column-4 project-2">
-              <h2 class="project-text">MUSIC<p><i class="fa-solid fa-record-vinyl fa-2xl"></i></p></h2>
-            </div>
-            
-            <div class="column-4 project-3">
-              <h2 class="project-text">DRAWING<p><i class="fa-solid fa-pencil fa-2xl"></i></p></h2>
-            </div>
-            
-            <div class="column-4 project-4">
-              <h2 class="project-text">ANIME<p><i class="fa-solid fa-tv fa-2xl"></i></p></h2>
-            </div>
-            
-            <div class="column-4 project-5">
-              <h2 class="project-text">HUNTING & FISHING<p><i class="fa-solid fa-campground fa-2xl"></i></p></h2>
-            </div>
-            
-            <div class="column-4 project-6">
-              <h2 class="project-text">CARS<p><i class="fa-solid fa-car fa-2xl"></i></p></h2>
-            </div>
-            
-            <div class="column-4 project-7">
-              <h2 class="project-text">COOKING<p><i class="fa-solid fa-kitchen-set fa-2xl"></i></p></h2>
-            </div>
-            
-            <div class="column-4 project-8">
-                <h2 class="project-text">ANTIQUE SHOPPING<p><i class="fa-solid fa-stamp fa-2xl"></i></p></h2>
-            </div>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Personal Portfolio Website</title>
 
-            <div class="column-4 project-9">
-                <h2 class="project-text">CRAFT BEER <p><i class="fa-solid fa-beer-mug-empty fa-2xl"></i></p></h2>
-            </div>
-        </p> 
-    </body>
+    <div
+      class="flex flexbox-item justify-between sm:flex"
+      style="opacity: 1; transform: none"
+    >
+      <div class="flexbox-item w-full h-full mx-2 bg-zinc-100 max-w-fit">
+        <a
+          class="flexbox-item primary-btn text-primary-200 block mx-auto w-fit rounded-none hover-effect-1 border-[0.5px] border-zinc-800 z-10"
+          <a href="home.html">Home</a>
+      </div>
+      <div class="flexbox-item w-full h-full mx-2 bg-zinc-100 max-w-fit">
+        <a
+          class="flexbox-item primary-btn text-primary-200 block mx-auto w-fit rounded-none hover-effect-1 border-[0.5px] border-zinc-800 z-10"
+          <a href=https://drive.google.com/file/d/1lFnDWbNBjfLs6UXUFpW0nqwpNGeue3Hi/view?usp=drive_link>Resume</a>
+      </div>
+    </div>
+  </head>
+  <main>
+    <div class="fixed bottom-6 left-6 flex flex-col2 gap-8 text-xl text-neutral-400" style="opacity: 1;">
+      <a target="blank" href="https://github.com/kelseykazoo">
+        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" class="transition-all duration-300 hover:scale-125" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z"></path></svg></a>
+        <a target="blank" href="https://www.linkedin.com/in/kelseykazoo777/">
+          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" class="transition-all duration-300 hover:scale-125" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zM349.3 793.7H230.6V411.9h118.7v381.8zm-59.3-434a68.8 68.8 0 1 1 68.8-68.8c-.1 38-30.9 68.8-68.8 68.8zm503.7 434H675.1V608c0-44.3-.8-101.2-61.7-101.2-61.7 0-71.2 48.2-71.2 98v188.9H423.7V411.9h113.8v52.2h1.6c15.8-30 54.5-61.7 112.3-61.7 120.2 0 142.3 79.1 142.3 181.9v209.4z"></path></svg></a>
+  </main>
+
+  <body class="page dark">
+    <section class="content">
+      <div class="toggle">
+        <input type="checkbox" id="theme" class="toggle-input" checked />
+        <label for="theme" class="toggle-label">
+          <img src="./images/moon.svg" alt="Dark mode" class="toggle-icon" />
+        </label>
+      </div>
+      <span
+        class="text-AAsecondary font-mono"
+        style="opacity: 1; transform: none"
+        >Hi, my name is</span
+      >
+      <h1 class="title">Kelsey Hill</h1>
+      <h2 class="subtitle">
+        Junior full stack engineer.
+        <br /><img
+          alt="Picture of the author"
+          loading="lazy"
+          width="150"
+          height="150"
+          decoding="async"
+          data-nimg="1"
+          src="./images/avatar2.png"
+          style="color: transparent; float: left"
+        />
+      </h2>
+
+      <p class="paragraph">
+        I am a current <s>drug dealer</s> certified pharmacy technician<i class="fa-solid fa-prescription"></i>
+        <br> A student currently enrolled at Purdue Global University<i class="fa-solid fa-graduation-cap"></i></br>
+        I am pursuing a Bachelor's degree in Information Technology<i class="fa-solid fa-terminal"></i>
+      </p>
+       <p class="paragraph quote">
+        <br>Technologies I currently work with:
+       <ul class="flex flex-wrap justify-center gap-2 text-lg font-semibold text-gray-800 paragraph2">
+        <div class="px-5 py-3 border rounded-2xl bg-white/5 borderBlack text-white/80 border-slate-600" style="opacity: 1; transform: none;">Python</div>
+        <div class="px-5 py-3 border rounded-2xl bg-white/5 borderBlack text-white/80 border-slate-600" style="opacity: 1; transform: none;">HTML</div>
+        <div class="px-5 py-3 border rounded-2xl bg-white/5 borderBlack text-white/80 border-slate-600" style="opacity: 1; transform: none;">CSS</div>
+        <div class="px-5 py-3 border rounded-2xl bg-white/5 borderBlack text-white/80 border-slate-600" style="opacity: 1; transform: none;">PostgreSQL</div>
+        <div class="px-5 py-3 border rounded-2xl bg-white/5 borderBlack text-white/80 border-slate-600" style="opacity: 1; transform: none;">MongoDB</div>
+        <div class="px-5 py-3 border rounded-2xl bg-white/5 borderBlack text-white/80 border-slate-600" style="opacity: 1; transform: none;">Javascript</div>
+        <div class="px-5 py-3 border rounded-2xl bg-white/5 borderBlack text-white/80 border-slate-600" style="opacity: 1; transform: none;">Linux</div>
+        <div class="px-5 py-3 border rounded-2xl bg-white/5 borderBlack text-white/80 border-slate-600" style="opacity: 1; transform: none;">GitHub</div>
+        <div class="px-5 py-3 border rounded-2xl bg-white/5 borderBlack text-white/80 border-slate-600" style="opacity: 1; transform: none;">Android Systems</div>
+        <div class="px-5 py-3 border rounded-2xl bg-white/5 borderBlack text-white/80 border-slate-600" style="opacity: 1; transform: none;">iOS/MacOS</div>
+        <div class="px-5 py-3 border rounded-2xl bg-white/5 borderBlack text-white/80 border-slate-600" style="opacity: 1; transform: none;">Microsoft Applications</div>
+        <div class="px-5 py-3 border rounded-2xl bg-white/5 borderBlack text-white/80 border-slate-600" style="opacity: 1; transform: none;">Epic Systems</div></ul>
+        
+        <p class="paragraph quote">
+        <br>General Skills:
+        <ul class="flex flex-wrap justify-center gap-2 text-lg font-semibold text-gray-800 paragraph2">
+        <div class="px-5 py-3 border rounded-2xl bg-white/5 borderBlack text-white/80 border-slate-600" style="opacity: 1; transform: none;">Problem Solving</div>
+        <div class="px-5 py-3 border rounded-2xl bg-white/5 borderBlack text-white/80 border-slate-600" style="opacity: 1; transform: none;">Critical Thinking</div>
+        <div class="px-5 py-3 border rounded-2xl bg-white/5 borderBlack text-white/80 border-slate-600" style="opacity: 1; transform: none;">General Communication</div>
+        <div class="px-5 py-3 border rounded-2xl bg-white/5 borderBlack text-white/80 border-slate-600" style="opacity: 1; transform: none;">Research Skills</div>
+        <div class="px-5 py-3 border rounded-2xl bg-white/5 borderBlack text-white/80 border-slate-600" style="opacity: 1; transform: none;">Self Organization</div>
+        <div class="px-5 py-3 border rounded-2xl bg-white/5 borderBlack text-white/80 border-slate-600" style="opacity: 1; transform: none;">Time Management</div>
+       
+        
+        <br><p class="paragraph quote">
+        <br>Technologies I am going to study in the future:
+        <ul class="flex flex-wrap justify-center gap-2 text-lg font-semibold text-gray-800 paragraph2">
+        <div class="px-5 py-3 border rounded-2xl bg-white/5 borderBlack text-white/80 border-slate-600" style="opacity: 1; transform: none;">TypeScript</div>
+        <div class="px-5 py-3 border rounded-2xl bg-white/5 borderBlack text-white/80 border-slate-600" style="opacity: 1; transform: none;">Tailwind</div>
+        <div class="px-5 py-3 border rounded-2xl bg-white/5 borderBlack text-white/80 border-slate-600" style="opacity: 1; transform: none;">React</div>
+        <div class="px-5 py-3 border rounded-2xl bg-white/5 borderBlack text-white/80 border-slate-600" style="opacity: 1; transform: none;">Node.js</div>
+        <div class="px-5 py-3 border rounded-2xl bg-white/5 borderBlack text-white/80 border-slate-600" style="opacity: 1; transform: none;">Express.js</div></ul>
+      </p>
+      <p class="paragraph">
+        <br><article class="grid max-w-2xl flex-1 gap-10 text-center">
+          <h1 class="text-4xl font-extrabold uppercase tracking-widest">Contact</h1><p class="max-w-lg text-sm leading-8 tracking-wider text-neutral-400">Send me a message and let's chat! <i class="fa-regular fa-face-laugh" aria-hidden="true"></i></p>
+          <div class="grid gap-10 text-sm"><div class="grid gap-2"><h2 class="text-lg font-bold tracking-widest">Address</h2>
+            <p class="tracking-wider text-neutral-400">Corpus Christi, Texas, United States</p></div>
+            <div class="grid gap-2"><h2 class="text-lg font-bold tracking-widest">Email</h2><p class="tracking-wider text-neutral-400">
+              <a href="mailto:kelseykazoo5@gmail.com" class="underline-offset-2 hover:underline">kelseykazoo5@gmail.com</a></p></div>
+              <div class="grid gap-2"><h2 class="text-lg font-bold tracking-widest">Phone</h2>
+                <p class="tracking-wider text-neutral-400"><a href="mailto:+13612903042" class="underline-offset-2 hover:underline">+13612903042</a></p></div></div></article></br></p>
+    </section>
+    <script src="script.js"></script>
+  </body>
 </html>
