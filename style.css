@@ -570,6 +570,34 @@ textarea {
   justify-content: center;
 }
 
+#contact {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#contact h1 {
+  font-family: 'Pattaya', sans-serif;
+  color: var(--text-sec);
+  margin-bottom: 20px;
+}
+
+#contact p {
+  color: var(--text-main);
+}
+
+#contact a {
+  color: var(--text-sec);
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+
 #projects {
   padding: 60px 20px;
   background-color: var(--main-bg);
