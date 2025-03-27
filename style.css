@@ -572,46 +572,56 @@ textarea {
 
 #projects {
   padding: 60px 20px;
-  background-color: #f9f9f9;
-  color: #333;
+  background-color: var(--main-bg);
+  color: var(--text-main);
   text-align: center;
 }
 
 #projects h2 {
   font-size: 2rem;
   margin-bottom: 30px;
+  color: var(--text-main);
 }
 
 .project-card {
   max-width: 600px;
   margin: 0 auto 40px auto;
   padding: 20px;
-  background-color: #ffffff;
+  background-color: var(--text-bg);
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px var(--shadow);
+  color: var(--text-main);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
 }
 
 .project-card h3 {
   font-size: 1.4rem;
   margin-bottom: 10px;
+  color: var(--text-main);
 }
 
 .project-card p {
   font-size: 1rem;
   margin-bottom: 15px;
+  color: var(--text-main);
 }
 
 .project-card a {
   display: inline-block;
   padding: 8px 14px;
-  background-color: #2a9d8f;
-  color: white;
+  background-color: var(--shadow);
+  color: var(--main-bg);
   border-radius: 6px;
   text-decoration: none;
   font-weight: bold;
+  transition: background-color 0.3s ease;
 }
 
 .project-card a:hover {
-  background-color: #21867a;
+  background-color: var(--text-sec);
 }
 
