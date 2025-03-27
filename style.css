@@ -582,12 +582,14 @@ textarea {
   font-family: 'Pattaya', sans-serif;
   color: var(--text-sec);
   margin-bottom: 20px;
+  text-align: center;
 }
 
 #contact h3 {
   font-family: 'Pattaya', sans-serif;
   color: var(--text-sec);
   margin-bottom: 20px;
+  text-align: center;
 }
 
 
