@@ -584,6 +584,13 @@ textarea {
   margin-bottom: 20px;
 }
 
+#contact h3 {
+  font-family: 'Pattaya', sans-serif;
+  color: var(--text-sec);
+  margin-bottom: 20px;
+}
+
+
 #contact p {
   color: var(--text-main);
 }
